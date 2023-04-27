@@ -16,7 +16,6 @@ memberButton.addEventListener('click', () => {
   } else {
     memberContainer.style.display = 'block';
   }
-  console.log(activeChatContainer)
   activeMemberContainer = !activeMemberContainer;
 });
 
