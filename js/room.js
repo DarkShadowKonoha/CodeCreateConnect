@@ -1,8 +1,9 @@
 let messagesContainer = document.getElementById('messages');
 messagesContainer.scrollTop = messagesContainer.scrollHeight;
 
-const memberContainer = document.getElementById('members__container');
-const memberButton = document.getElementById('members__button');
+const memberContainer = document.getElementById('gitDIV');
+const memberButton = document.getElementById('git-btn');
+const video = document.getElementsByClassName('video__container');
 
 const chatContainer = document.getElementById('messages__container');
 const chatButton = document.getElementById('chat__button');
@@ -12,10 +13,14 @@ let activeMemberContainer = false;
 memberButton.addEventListener('click', () => {
   if (activeMemberContainer) {
     memberContainer.style.display = 'none';
+    video.style.display = 'flex';
+
   } else {
     memberContainer.style.display = 'block';
-  }
+    video.style.display = 'none';
 
+  }
+  console.log(222)
   activeMemberContainer = !activeMemberContainer;
 });
 
