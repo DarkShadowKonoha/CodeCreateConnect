@@ -13,16 +13,13 @@ let activeMemberContainer = false;
 memberButton.addEventListener('click', () => {
   if (activeMemberContainer) {
     memberContainer.style.display = 'none';
-    video.style.display = 'flex';
-
   } else {
     memberContainer.style.display = 'block';
-    video.style.display = 'none';
-
   }
-  console.log(222)
+  console.log(activeChatContainer)
   activeMemberContainer = !activeMemberContainer;
 });
+
 
 let activeChatContainer = false;
 

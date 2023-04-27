@@ -8,9 +8,9 @@
     outline: inherit;
     font-size: 20px;
 }
-/* #gitDIV{
+#gitDIV{
     display: none;
-} */
+}
 
 .fileBtn:hover{
     color: #218bc4;
