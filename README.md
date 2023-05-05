@@ -1,7 +1,7 @@
 # Code Create Connenct
 A real time messaging & video calling. 
 
-Live Demo: https://www.mumble2.dev/
+
 
 # Installation
 * 1 - clone repo https://github.com/Introfect/codecreateconnect
